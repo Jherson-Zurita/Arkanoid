@@ -1,0 +1,3 @@
+C:\Users\2017\Documents\Unreal Projects\Arkanoid\Intermediate\Build\Win64\UE4Editor\Development\Arkanoid\Definitions.Arkanoid.h
+C:\Users\2017\Documents\Unreal Projects\Arkanoid\Source\Arkanoid\brickmover.h
+C:\Users\2017\Documents\Unreal Projects\Arkanoid\Intermediate\Build\Win64\UE4Editor\Inc\Arkanoid\brickmover.generated.h
