@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Arkanoid.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FEAD8412-E64D-4FF8-ACD4-67A0B93C878B}</UniqueIdentifier>
+      <UniqueIdentifier>{8A7915C3-8CF5-47A8-8B47-CE6D1292FC5E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Arkanoid.Target.cs">
       <Filter>Source</Filter>
@@ -11,10 +11,12 @@
     <None Include="..\..\Source\ArkanoidEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\PADDLE.ipch" />
     <None Include="..\..\PAWN.ipch" />
     <Filter Include="Config">
-      <UniqueIdentifier>{9C9CDBF6-392C-44EC-84E1-897FE7A9A8E1}</UniqueIdentifier>
+      <UniqueIdentifier>{E2E6FF92-6E3F-4584-B8AC-C2924F4D7B43}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Arkanoid">
-      <UniqueIdentifier>{40A2EBA7-E8C9-4EF5-8246-E9EF1A55ABA8}</UniqueIdentifier>
+      <UniqueIdentifier>{FC7C2E46-6153-439F-8B45-06FDDEAC5857}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Arkanoid\Arkanoid.Build.cs">
       <Filter>Source\Arkanoid</Filter>
@@ -52,28 +54,16 @@
     <ClInclude Include="..\..\Source\Arkanoid\Ball.h">
       <Filter>Source\Arkanoid</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Arkanoid\Balll.cpp">
+    <ClCompile Include="..\..\Source\Arkanoid\BallBound.cpp">
       <Filter>Source\Arkanoid</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Arkanoid\Balll.h">
+    <ClInclude Include="..\..\Source\Arkanoid\BallBound.h">
       <Filter>Source\Arkanoid</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Arkanoid\brickmov.cpp">
+    <ClCompile Include="..\..\Source\Arkanoid\Brick.cpp">
       <Filter>Source\Arkanoid</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Arkanoid\brickmov.h">
-      <Filter>Source\Arkanoid</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Arkanoid\brickmover.cpp">
-      <Filter>Source\Arkanoid</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Arkanoid\brickmover.h">
-      <Filter>Source\Arkanoid</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Arkanoid\mov.cpp">
-      <Filter>Source\Arkanoid</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Arkanoid\mov.h">
+    <ClInclude Include="..\..\Source\Arkanoid\Brick.h">
       <Filter>Source\Arkanoid</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Arkanoid\Paddle.cpp">
@@ -87,6 +77,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Arkanoid\PaddlePlayerController.h">
       <Filter>Source\Arkanoid</Filter>
+    </ClInclude>
+    <Filter Include="Source\Arkanoid\Private">
+      <UniqueIdentifier>{ECCE1923-134D-422A-941D-FABD65513F4C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Arkanoid\Private\brickcomp.cpp">
+      <Filter>Source\Arkanoid\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Arkanoid\Public">
+      <UniqueIdentifier>{76EF634D-928E-4374-A977-D4298FB4C11E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Arkanoid\Public\brickcomp.h">
+      <Filter>Source\Arkanoid\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

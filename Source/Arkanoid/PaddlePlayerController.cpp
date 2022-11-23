@@ -61,6 +61,11 @@ void APaddlePlayerController::MoveVertical(float AxisValue)
 	{
 		MyPawn->SetActorLocation(FVector(0,0,20));
 	}
+
+	if (MyPawn->GetActorLocation().Z < -50)
+	{
+		MyPawn->SetActorLocation(FVector(0, 0, 20));
+	}
 }
 
 void APaddlePlayerController::Lanch()

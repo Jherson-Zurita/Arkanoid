@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeArkanoidGameModeBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AArkanoidGameModeBase_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "ArkanoidGameModeBase.h" },
 		{ "ModuleRelativePath", "ArkanoidGameModeBase.h" },
@@ -74,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeArkanoidGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AArkanoidGameModeBase, 1476346007);
+	IMPLEMENT_CLASS(AArkanoidGameModeBase, 4155952636);
 	template<> ARKANOID_API UClass* StaticClass<AArkanoidGameModeBase>()
 	{
 		return AArkanoidGameModeBase::StaticClass();

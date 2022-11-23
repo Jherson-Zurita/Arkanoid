@@ -27,6 +27,7 @@ ABall::ABall()
 	ProjectileMovement->Bounciness = 1.1f;
 	ProjectileMovement->Friction = 0.0f;
 	ProjectileMovement->Velocity.X = 0.0f;
+	//ProjectileMovement->Velocity.Z = 0.0f;
 
 
 }
@@ -44,18 +45,6 @@ void ABall::BeginPlay()
 void ABall::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-
-	/*velocidad += velocidad * DeltaTime;
-
-	posicion.X = velocidad + ballm->GetActorLocation().X;
-	posicion.Y = ballm->GetActorLocation().Y;
-	posicion.Z = ballm->GetActorLocation().Z;
-
-
-	ballm->SetActorLocation(posicion);*/
-
-
 
 }
 

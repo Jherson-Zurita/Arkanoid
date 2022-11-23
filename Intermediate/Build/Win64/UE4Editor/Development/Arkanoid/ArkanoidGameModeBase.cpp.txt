@@ -1,0 +1,9 @@
+D:\Unreal Projects\Arkanoid\Intermediate\Build\Win64\UE4Editor\Development\Arkanoid\Definitions.Arkanoid.h
+D:\Unreal Projects\Arkanoid\Source\Arkanoid\ArkanoidGameModeBase.h
+D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Unreal Projects\Arkanoid\Intermediate\Build\Win64\UE4Editor\Inc\Arkanoid\ArkanoidGameModeBase.generated.h
+D:\Unreal Projects\Arkanoid\Source\Arkanoid\Brick.h
+D:\Unreal Projects\Arkanoid\Intermediate\Build\Win64\UE4Editor\Inc\Arkanoid\Brick.generated.h

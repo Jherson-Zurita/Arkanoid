@@ -38,13 +38,5 @@ public:
 
 	UFUNCTION()
 		UStaticMeshComponent* GetBall();
-/*private:
 
-	AActor* ballm;
-
-	UPROPERTY(EditAnywhere)
-		FVector posicion;
-
-	UPROPERTY(EditAnywhere)
-		int velocidad = 1;*/
 };

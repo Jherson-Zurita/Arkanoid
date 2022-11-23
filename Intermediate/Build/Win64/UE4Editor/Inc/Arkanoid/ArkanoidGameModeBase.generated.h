@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARKANOID_ArkanoidGameModeBase_generated_h
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_SPARSE_DATA
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_RPC_WRAPPERS
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_SPARSE_DATA
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_RPC_WRAPPERS
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArkanoidGameModeBase(); \
 	friend struct Z_Construct_UClass_AArkanoidGameModeBase_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AArkanoidGameModeBase)
 
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_INCLASS \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAArkanoidGameModeBase(); \
 	friend struct Z_Construct_UClass_AArkanoidGameModeBase_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AArkanoidGameModeBase)
 
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArkanoidGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArkanoidGameModeBase) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArkanoidGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArkanoidGameModeBase)
 
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_12_PROLOG
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_PROLOG
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_SPARSE_DATA \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_RPC_WRAPPERS \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_INCLASS \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_SPARSE_DATA \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_RPC_WRAPPERS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_INCLASS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_GENERATED_BODY \
+#define Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_SPARSE_DATA \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_SPARSE_DATA \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_INCLASS_NO_PURE_DECLS \
+	Arkanoid_Source_Arkanoid_ArkanoidGameModeBase_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
